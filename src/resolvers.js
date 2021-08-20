@@ -1,7 +1,7 @@
 const { v4 } = require("uuid")
-const Animal = require('../model/Animal')
-const MainCard = require('../model/MainCard')
-const Category = require('../model/category')
+const Animal = require('./model/Animal')
+const MainCard = require('./model/MainCard')
+const Category = require('./model/category')
 const resolvers = {
   Query: {
     mainCards: () => MainCard.find(),
